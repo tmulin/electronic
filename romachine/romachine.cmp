@@ -1,0 +1,27 @@
+Cmp-Mod V01 Created by PcbNew   date = 2017年11月10日 星期五 03:56:36
+
+BeginCmp
+TimeStamp = 5A055B02
+Path = /5A055A52
+Reference = J0;
+ValeurCmp = CONN_01X02;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A055B15
+Path = /5A055849
+Reference = J1;
+ValeurCmp = CONN_01X15;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x15_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A055B28
+Path = /5A0558A1
+Reference = J2;
+ValeurCmp = CONN_01X15;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x15_Pitch2.54mm;
+EndCmp
+
+EndListe

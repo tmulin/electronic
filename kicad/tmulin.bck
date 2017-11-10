@@ -1,0 +1,125 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC245
+D Octal BUS Transceivers, 3 State out
+K HCMOS BUS 3State
+$ENDCMP
+#
+$CMP 74HC595
+D 8 bits serial in // out Shift Register 3 State Out
+K HCMOS SR 3State
+F 74xx/74HC595.pdf
+$ENDCMP
+#
+$CMP 74LS245
+D Octal BUS Transceivers, 3 State out
+K TTL BUS 3State
+$ENDCMP
+#
+$CMP 74LS595
+D 8 bits serial in // out Shift Register 3 State Out
+K TTL SR 3State
+$ENDCMP
+#
+$CMP 74LS596
+D 8 bits serial in // out Shift Register Open Collect.
+K HCMOS SR OpenCol
+$ENDCMP
+#
+$CMP IRF540N
+D 100V Vds, 33A Id, HEXFET N-Channel MOSFET, TO-220
+K HEXFET N-Channel MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf540n.pdf
+$ENDCMP
+#
+$CMP MC1413
+D High Voltage, High Current Darlington Transistor Arrays
+K darlington transistor array
+F http://www.onsemi.com/pub_link/Collateral/MC1413-D.PDF
+$ENDCMP
+#
+$CMP MC1413P
+D High Voltage, High Current Darlington Transistor Arrays
+K darlington transistor array
+F http://www.onsemi.com/pub_link/Collateral/MC1413-D.PDF
+$ENDCMP
+#
+$CMP SN75468
+D Higher Voltage, High Current Darlington Transistor Arrays
+K darlington transistor array
+F http://www.ti.com/lit/ds/slrs023e/slrs023e.pdf
+$ENDCMP
+#
+$CMP SN75469
+D Higher Voltage, High Current Darlington Transistor Arrays
+K darlington transistor array
+F http://www.ti.com/lit/ds/slrs023e/slrs023e.pdf
+$ENDCMP
+#
+$CMP ULN2002
+D High Voltage, High Current Darlington Transistor Arrays
+K darlington transistor array
+F http://www.ti.com/lit/ds/symlink/uln2003a.pdf
+$ENDCMP
+#
+$CMP ULN2002A
+D High Voltage, High Current Darlington Transistor Arrays
+K darlington transistor array
+F http://www.ti.com/lit/ds/symlink/uln2003a.pdf
+$ENDCMP
+#
+$CMP ULN2003
+D High Voltage, High Current Darlington Transistor Arrays
+K darlington transistor array
+F http://www.ti.com/lit/ds/symlink/uln2003a.pdf
+$ENDCMP
+#
+$CMP ULN2003A
+D High Voltage, High Current Darlington Transistor Arrays
+K darlington transistor array
+F http://www.ti.com/lit/ds/symlink/uln2003a.pdf
+$ENDCMP
+#
+$CMP ULN2004
+D High Voltage, High Current Darlington Transistor Arrays
+K darlington transistor array
+F http://www.ti.com/lit/ds/symlink/uln2003a.pdf
+$ENDCMP
+#
+$CMP ULN2004A
+D High Voltage, High Current Darlington Transistor Arrays
+K darlington transistor array
+F http://www.ti.com/lit/ds/symlink/uln2003a.pdf
+$ENDCMP
+#
+$CMP ULN2801A
+D Darlington Transistor Arrays
+K darlington transistor array
+F http://www.promelec.ru/pdf/1536.pdf
+$ENDCMP
+#
+$CMP ULN2802A
+D Darlington Transistor Arrays
+K darlington transistor array
+F http://www.promelec.ru/pdf/1536.pdf
+$ENDCMP
+#
+$CMP ULN2803A
+D Darlington Transistor Arrays
+K darlington transistor array
+F http://www.ti.com/lit/ds/symlink/uln2803a.pdf
+$ENDCMP
+#
+$CMP ULN2804A
+D Darlington Transistor Arrays
+K darlington transistor array
+F http://www.promelec.ru/pdf/1536.pdf
+$ENDCMP
+#
+$CMP ULN2805A
+D Darlington Transistor Arrays
+K darlington transistor array
+F http://www.promelec.ru/pdf/1536.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,182 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:romachine-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X15 J1
+U 1 1 5A055849
+P 4400 2800
+F 0 "J1" H 4400 3600 50  0000 C CNN
+F 1 "CONN_01X15" V 4500 2800 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x15_Pitch2.54mm" H 4400 2800 50  0001 C CNN
+F 3 "" H 4400 2800 50  0001 C CNN
+	1    4400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X15 J2
+U 1 1 5A0558A1
+P 5300 2800
+F 0 "J2" H 5300 3600 50  0000 C CNN
+F 1 "CONN_01X15" V 5400 2800 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x15_Pitch2.54mm" H 5300 2800 50  0001 C CNN
+F 3 "" H 5300 2800 50  0001 C CNN
+	1    5300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR1
+U 1 1 5A055929
+P 3450 2850
+F 0 "#PWR1" H 3450 2700 50  0001 C CNN
+F 1 "+5V" H 3450 2990 50  0000 C CNN
+F 2 "" H 3450 2850 50  0001 C CNN
+F 3 "" H 3450 2850 50  0001 C CNN
+	1    3450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 5A055945
+P 3450 3400
+F 0 "#PWR2" H 3450 3150 50  0001 C CNN
+F 1 "GND" H 3450 3250 50  0000 C CNN
+F 2 "" H 3450 3400 50  0001 C CNN
+F 3 "" H 3450 3400 50  0001 C CNN
+	1    3450 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG1
+U 1 1 5A055961
+P 3450 2850
+F 0 "#FLG1" H 3450 2925 50  0001 C CNN
+F 1 "PWR_FLAG" H 3450 3000 50  0000 C CNN
+F 2 "" H 3450 2850 50  0001 C CNN
+F 3 "" H 3450 2850 50  0001 C CNN
+	1    3450 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG2
+U 1 1 5A05597D
+P 3450 3400
+F 0 "#FLG2" H 3450 3475 50  0001 C CNN
+F 1 "PWR_FLAG" H 3450 3550 50  0000 C CNN
+F 2 "" H 3450 3400 50  0001 C CNN
+F 3 "" H 3450 3400 50  0001 C CNN
+	1    3450 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3400 4200 3400
+Wire Wire Line
+	4200 3200 3900 3200
+Wire Wire Line
+	3900 3200 3900 2850
+Wire Wire Line
+	3900 2850 2200 2850
+$Comp
+L CONN_01X02 J0
+U 1 1 5A055A52
+P 3000 3150
+F 0 "J0" H 3000 3300 50  0000 C CNN
+F 1 "CONN_01X02" V 3100 3150 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 3000 3150 50  0001 C CNN
+F 3 "" H 3000 3150 50  0001 C CNN
+	1    3000 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2850 2800 3100
+Connection ~ 3450 2850
+Wire Wire Line
+	2800 3200 2800 3400
+Connection ~ 3450 3400
+NoConn ~ 4200 2100
+NoConn ~ 4200 2200
+NoConn ~ 4200 2300
+NoConn ~ 4200 2400
+NoConn ~ 4200 2500
+NoConn ~ 4200 2600
+NoConn ~ 4200 2700
+NoConn ~ 4200 2800
+NoConn ~ 4200 2900
+NoConn ~ 4200 3000
+NoConn ~ 4200 3100
+NoConn ~ 4200 3300
+NoConn ~ 4200 3500
+NoConn ~ 5100 3500
+NoConn ~ 5100 3400
+NoConn ~ 5100 3300
+NoConn ~ 5100 3200
+NoConn ~ 5100 3100
+NoConn ~ 5100 3000
+NoConn ~ 5100 2900
+NoConn ~ 5100 2800
+NoConn ~ 5100 2700
+NoConn ~ 5100 2600
+NoConn ~ 5100 2500
+NoConn ~ 5100 2400
+NoConn ~ 5100 2300
+NoConn ~ 5100 2200
+NoConn ~ 5100 2100
+$Comp
+L Conn_01x02 J3
+U 1 1 5A0573CF
+P 2400 3100
+F 0 "J3" H 2400 3200 50  0000 C CNN
+F 1 "Conn_01x02" H 2400 2900 50  0000 C CNN
+F 2 "" H 2400 3100 50  0001 C CNN
+F 3 "" H 2400 3100 50  0001 C CNN
+	1    2400 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2850 2200 3100
+Connection ~ 2800 2850
+Wire Wire Line
+	2200 3200 2200 3400
+Connection ~ 2800 3400
+$EndSCHEMATC
